@@ -23,7 +23,7 @@
     "blockchain",
     "blockexplorer",
     "potcoin",
-    "bitcore",
+    "potcore",
     "front-end"
   ],
   "scripts": {
