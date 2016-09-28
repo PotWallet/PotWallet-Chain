@@ -1,64 +1,36 @@
 {
-  "name": "reddsight",
-  "description": "An open-source frontend for the Reddsight API. The Reddsight API provides you with a convenient, powerful and simple way to query and broadcast data on the Reddcoin network and build your own services with it.",
+  "name": "potchain",
+  "description": "An open-source frontend for the PotChain API. The PotChain API provides you with a convenient, powerful and simple way to query and broadcast data on the Potcoin network and build your own services with it.",
   "version": "0.2.6",
   "author": {
-    "name": "Larry Ren",
-    "email": "ren@reddcoin.com"
+    "name": "David E",
+    "email": "davide@potwallet.com"
   },
-  "repository": "git://github.com/reddcoin-project/reddsight.git",
+  "repository": "git://github.com/PotWallet/PotWallet-Chain.git",
   "contributors": [
     {
-      "name": "Mike Croteau",
-      "email": "mike@reddcoin.com"
-    },
-    {
-      "name": "Andrew Groff",
-      "email": "andrew@reddcoin.com"
-    },
-    {
-      "name": "Ryan X Charles",
-      "email": "ryan@bitpay.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Mario Colque",
-      "email": "colquemario@gmail.com"
-    },
-    {
-      "name": "Gustavo Cortez",
-      "email": "cmgustavo83@gmail.com"
-    },
-    {
-      "name": "Juan Ignacio Sosa Lopez",
-      "email": "bechilandia@gmail.com"
+      "name": "David E",
+      "email": "davide@potwallet.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/reddcoin-project/reddsight/issues"
+    "url": "https://github.com/PotWallet/PotWallet-Chain/issues"
   },
-  "homepage": "https://github.com/reddcoin-project/reddsight",
+  "homepage": "https://github.com/PotWallet/PotWallet-Chain",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "reddcoin",
+    "potcoin",
     "bitcore",
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/reddsight-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/potchain-api"
   },
   "dependencies": {
-    "reddsight-api": "git://github.com/reddcoin-project/reddsight-api.git"
+    "potchain-api": "git://github.com/PotWallet/PotWallet-Chain-API.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
