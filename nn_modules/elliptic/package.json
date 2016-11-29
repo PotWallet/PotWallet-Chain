@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "elliptic@^0.15.12",
+        "scope": null,
+        "escapedName": "elliptic",
+        "name": "elliptic",
+        "rawSpec": "^0.15.12",
+        "spec": ">=0.15.12 <0.16.0",
+        "type": "range"
+      },
+      "/potwallet-chain/node_modules/bitauth"
+    ]
+  ],
+  "_from": "elliptic@>=0.15.12 <0.16.0",
+  "_id": "elliptic@0.15.17",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/elliptic",
+  "_nodeVersion": "0.10.33",
+  "_npmUser": {
+    "name": "indutny",
+    "email": "fedor@indutny.com"
+  },
+  "_npmVersion": "2.1.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "elliptic@^0.15.12",
+    "scope": null,
+    "escapedName": "elliptic",
+    "name": "elliptic",
+    "rawSpec": "^0.15.12",
+    "spec": ">=0.15.12 <0.16.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/bitauth"
+  ],
+  "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-0.15.17.tgz",
+  "_shasum": "43f2bc8046c838df1ac99e5242da1b1b4bc59937",
+  "_shrinkwrap": null,
+  "_spec": "elliptic@^0.15.12",
+  "_where": "/potwallet-chain/node_modules/bitauth",
+  "author": {
+    "name": "Fedor Indutny",
+    "email": "fedor@indutny.com"
+  },
+  "bugs": {
+    "url": "https://github.com/indutny/elliptic/issues"
+  },
+  "dependencies": {
+    "bn.js": "^0.16.0",
+    "brorand": "^1.0.1",
+    "hash.js": "^0.2.0",
+    "inherits": "^2.0.1"
+  },
+  "description": "EC cryptography",
+  "devDependencies": {
+    "browserify": "^3.44.2",
+    "mocha": "^1.18.2",
+    "uglify-js": "^2.4.13"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "43f2bc8046c838df1ac99e5242da1b1b4bc59937",
+    "tarball": "https://registry.npmjs.org/elliptic/-/elliptic-0.15.17.tgz"
+  },
+  "gitHead": "e8c243a4bdbddb7220607b504a0f8ecfff48918d",
+  "homepage": "https://github.com/indutny/elliptic",
+  "keywords": [
+    "EC",
+    "Elliptic",
+    "curve",
+    "Cryptography"
+  ],
+  "license": "MIT",
+  "main": "lib/elliptic.js",
+  "maintainers": [
+    {
+      "name": "indutny",
+      "email": "fedor@indutny.com"
+    }
+  ],
+  "name": "elliptic",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/elliptic.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js"
+  },
+  "version": "0.15.17"
+}

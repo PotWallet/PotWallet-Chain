@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "pbkdf2-sha256@~0.1.1",
+        "scope": null,
+        "escapedName": "pbkdf2-sha256",
+        "name": "pbkdf2-sha256",
+        "rawSpec": "~0.1.1",
+        "spec": ">=0.1.1 <0.2.0",
+        "type": "range"
+      },
+      "/potwallet-chain/node_modules/scryptsy"
+    ]
+  ],
+  "_from": "pbkdf2-sha256@>=0.1.1 <0.2.0",
+  "_id": "pbkdf2-sha256@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/pbkdf2-sha256",
+  "_npmUser": {
+    "name": "jp",
+    "email": "jprichardson@gmail.com"
+  },
+  "_npmVersion": "1.3.24",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "pbkdf2-sha256@~0.1.1",
+    "scope": null,
+    "escapedName": "pbkdf2-sha256",
+    "name": "pbkdf2-sha256",
+    "rawSpec": "~0.1.1",
+    "spec": ">=0.1.1 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/scryptsy"
+  ],
+  "_resolved": "https://registry.npmjs.org/pbkdf2-sha256/-/pbkdf2-sha256-0.1.1.tgz",
+  "_shasum": "760021afb3d5d1b2ef85c3ecad2945b343b0fa10",
+  "_shrinkwrap": null,
+  "_spec": "pbkdf2-sha256@~0.1.1",
+  "_where": "/potwallet-chain/node_modules/scryptsy",
+  "author": {
+    "name": "JP Richardson",
+    "email": "jprichardson@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptocoinjs/pbkdf2-sha256/issues"
+  },
+  "dependencies": {},
+  "deprecated": "Please use package 'pbkdf2' instead.",
+  "description": "pbkdf2-sha256 is a PBDKF2 implementation using HMAC SHA256",
+  "devDependencies": {
+    "browserify": "~3.30.1",
+    "mocha": "~1.17.1",
+    "terst": "0.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "760021afb3d5d1b2ef85c3ecad2945b343b0fa10",
+    "tarball": "https://registry.npmjs.org/pbkdf2-sha256/-/pbkdf2-sha256-0.1.1.tgz"
+  },
+  "homepage": "https://github.com/cryptocoinjs/pbkdf2-sha256",
+  "keywords": [
+    "pbkdf2",
+    "sha256",
+    "hmac",
+    "crypto",
+    "cryptography",
+    "scrypt"
+  ],
+  "license": "MIT",
+  "main": "./lib/pbkdf2.js",
+  "maintainers": [
+    {
+      "name": "jp",
+      "email": "jprichardson@gmail.com"
+    }
+  ],
+  "name": "pbkdf2-sha256",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "url": "git+ssh://git@github.com/cryptocoinjs/pbkdf2-sha256.git",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "0.1.1"
+}

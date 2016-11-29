@@ -1,0 +1,143 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bitauth@^0.1.1",
+        "scope": null,
+        "escapedName": "bitauth",
+        "name": "bitauth",
+        "rawSpec": "^0.1.1",
+        "spec": ">=0.1.1 <0.2.0",
+        "type": "range"
+      },
+      "/potwallet-chain/node_modules/potchain-api"
+    ]
+  ],
+  "_from": "bitauth@>=0.1.1 <0.2.0",
+  "_id": "bitauth@0.1.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bitauth",
+  "_npmUser": {
+    "name": "martindale",
+    "email": "eric@ericmartindale.com"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {
+    "accepts": "1.3.3",
+    "array-flatten": "1.1.1",
+    "bignum": "0.12.5",
+    "content-disposition": "0.5.1",
+    "content-type": "1.0.2",
+    "cookie": "0.3.1",
+    "cookie-signature": "1.0.6",
+    "debug": "2.2.0",
+    "depd": "1.1.0",
+    "encodeurl": "1.0.1",
+    "escape-html": "1.0.3",
+    "etag": "1.7.0",
+    "finalhandler": "0.5.0",
+    "fresh": "0.3.0",
+    "merge-descriptors": "1.0.1",
+    "methods": "1.1.2",
+    "on-finished": "2.3.0",
+    "parseurl": "1.3.1",
+    "path-to-regexp": "0.1.7",
+    "proxy-addr": "1.1.2",
+    "range-parser": "1.2.0",
+    "send": "0.14.1",
+    "serve-static": "1.11.1",
+    "type-is": "1.6.13",
+    "utils-merge": "1.0.0",
+    "vary": "1.1.0"
+  },
+  "_requested": {
+    "raw": "bitauth@^0.1.1",
+    "scope": null,
+    "escapedName": "bitauth",
+    "name": "bitauth",
+    "rawSpec": "^0.1.1",
+    "spec": ">=0.1.1 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/potchain-api"
+  ],
+  "_resolved": "https://registry.npmjs.org/bitauth/-/bitauth-0.1.2.tgz",
+  "_shasum": "d4956c699b1c0af6b86bee09ee1a383d0ea75654",
+  "_shrinkwrap": null,
+  "_spec": "bitauth@^0.1.1",
+  "_where": "/potwallet-chain/node_modules/potchain-api",
+  "author": {
+    "name": "Patrick Nagurny",
+    "email": "patrick@bitpay.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bitpay/bitauth/issues"
+  },
+  "contributors": [
+    {
+      "name": "Eric Martindale",
+      "email": "eric@ericmartindale.com"
+    },
+    {
+      "name": "Gordon Hall",
+      "email": "gordon@bitpay.com"
+    },
+    {
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    }
+  ],
+  "dependencies": {
+    "base58-native": "^0.1.4",
+    "body-parser": "^1.2.0",
+    "bs58": "^2.0.0",
+    "elliptic": "^0.15.12",
+    "express": "^4.3.1",
+    "hash.js": "^0.3.2",
+    "request": "^2.36.0"
+  },
+  "description": "Passwordless authentication using Bitcoin cryptography",
+  "devDependencies": {
+    "browserify": "=6.1.0",
+    "chai": "=1.9.1",
+    "mocha": "~1.20.1",
+    "uglify-js": "~2.4.14"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "d4956c699b1c0af6b86bee09ee1a383d0ea75654",
+    "tarball": "https://registry.npmjs.org/bitauth/-/bitauth-0.1.2.tgz"
+  },
+  "gitHead": "6f82ffe79e84775901e1853bc0660bf2683dd128",
+  "homepage": "https://github.com/bitpay/bitauth",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "jasondreyzehner",
+      "email": "jason@dreyzehner.com"
+    },
+    {
+      "name": "patrickbitpay",
+      "email": "patrick@bitpay.com"
+    },
+    {
+      "name": "martindale",
+      "email": "eric@ericmartindale.com"
+    }
+  ],
+  "name": "bitauth",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitpay/bitauth.git"
+  },
+  "scripts": {
+    "make-dist": "sh scripts/make-dist.sh",
+    "postinstall": "npm run make-dist",
+    "test": "mocha test/*.js --reporter spec"
+  },
+  "version": "0.1.2"
+}

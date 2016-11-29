@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "browserify-buffertools@git://github.com/maraoz/browserify-buffertools.git",
+        "scope": null,
+        "escapedName": "browserify-buffertools",
+        "name": "browserify-buffertools",
+        "rawSpec": "git://github.com/maraoz/browserify-buffertools.git",
+        "spec": "git://github.com/maraoz/browserify-buffertools.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:maraoz/browserify-buffertools.git",
+          "sshUrl": "git+ssh://git@github.com/maraoz/browserify-buffertools.git",
+          "httpsUrl": "git+https://github.com/maraoz/browserify-buffertools.git",
+          "gitUrl": "git://github.com/maraoz/browserify-buffertools.git",
+          "shortcut": "github:maraoz/browserify-buffertools",
+          "directUrl": "https://raw.githubusercontent.com/maraoz/browserify-buffertools/master/package.json"
+        }
+      },
+      "/potwallet-chain/node_modules/reddcore"
+    ]
+  ],
+  "_from": "git://github.com/maraoz/browserify-buffertools.git",
+  "_id": "browserify-buffertools@1.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/browserify-buffertools",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "browserify-buffertools@git://github.com/maraoz/browserify-buffertools.git",
+    "scope": null,
+    "escapedName": "browserify-buffertools",
+    "name": "browserify-buffertools",
+    "rawSpec": "git://github.com/maraoz/browserify-buffertools.git",
+    "spec": "git://github.com/maraoz/browserify-buffertools.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:maraoz/browserify-buffertools.git",
+      "sshUrl": "git+ssh://git@github.com/maraoz/browserify-buffertools.git",
+      "httpsUrl": "git+https://github.com/maraoz/browserify-buffertools.git",
+      "gitUrl": "git://github.com/maraoz/browserify-buffertools.git",
+      "shortcut": "github:maraoz/browserify-buffertools",
+      "directUrl": "https://raw.githubusercontent.com/maraoz/browserify-buffertools/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/reddcore"
+  ],
+  "_resolved": "git://github.com/maraoz/browserify-buffertools.git#fe676bceffad2797d096f1aaf929cf1645121799",
+  "_shasum": "794f519ab3835c8ca6a2d9f58a63500003fbd711",
+  "_shrinkwrap": null,
+  "_spec": "browserify-buffertools@git://github.com/maraoz/browserify-buffertools.git",
+  "_where": "/potwallet-chain/node_modules/reddcore",
+  "author": {
+    "name": "Manuel Araoz",
+    "email": "manuelaraoz@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/maraoz/browserify-buffertools/issues"
+  },
+  "dependencies": {},
+  "description": "A JavaScript implementation of node-buffertools to work in the browser",
+  "devDependencies": {
+    "browserify": "~3.30.1",
+    "chai": "~1.9.0",
+    "grunt": "~0.4.2",
+    "grunt-browserify": "~1.3.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "mocha": "~1.17.1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "gitHead": "fe676bceffad2797d096f1aaf929cf1645121799",
+  "homepage": "https://github.com/maraoz/browserify-buffertools#readme",
+  "keywords": [
+    "buffer",
+    "buffers",
+    "browserify"
+  ],
+  "license": "MIT",
+  "main": "buffertools",
+  "name": "browserify-buffertools",
+  "optionalDependencies": {},
+  "readme": "# browserify-buffertools #\n\nA JavaScript implementation of [node-buffertools](https://github.com/bnoordhuis/node-buffertools) for use in the browser via [browserify](http://browserify.org/).\n\n## Usage and limitations\nAPI functionality should be identical to that of [node-buffertools](https://github.com/bnoordhuis/node-buffertools). Our test cases are very inspired in the original node test cases. However, a few things are missing: (feel free to contribute Pull Requests)\n* The WritableBufferStream class is available but totally untested.\n\n## Running tests\n\nTo run node tests run:\n```\nmocha\n```\n\nTo run browser tests, run:\n```\ngrunt browserify\n```\nAnd open test.html in your browser.\n\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maraoz/browserify-buffertools.git"
+  },
+  "version": "1.0.2"
+}

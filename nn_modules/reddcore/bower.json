@@ -1,0 +1,29 @@
+{
+  "name": "reddcore",
+  "main": "browser/bundle.js",
+  "version": "0.1.36",
+  "homepage": "https://github.com/reddcoin-project/reddcore",
+  "authors": [
+    "Larry Ren (<ren@reddcoin.com>)"
+  ],
+  "description": "Reddcoin Core Library in Javascript",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "reddcoin",
+    "reddcore",
+    "rdd",
+    "bitcoin",
+    "bitcore",
+    "btc",
+    "satoshi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ]
+}

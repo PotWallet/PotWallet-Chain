@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "soop@=0.1.5",
+        "scope": null,
+        "escapedName": "soop",
+        "name": "soop",
+        "rawSpec": "=0.1.5",
+        "spec": "0.1.5",
+        "type": "version"
+      },
+      "/potwallet-chain/node_modules/potchain-api"
+    ]
+  ],
+  "_from": "soop@0.1.5",
+  "_id": "soop@0.1.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/soop",
+  "_npmUser": {
+    "name": "gasteve",
+    "email": "stephen@pairhome.net"
+  },
+  "_npmVersion": "1.3.26",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "soop@=0.1.5",
+    "scope": null,
+    "escapedName": "soop",
+    "name": "soop",
+    "rawSpec": "=0.1.5",
+    "spec": "0.1.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/potchain-api"
+  ],
+  "_resolved": "https://registry.npmjs.org/soop/-/soop-0.1.5.tgz",
+  "_shasum": "fa59420bb0eeff99ffd81c5228bad4b1841c2ed8",
+  "_shrinkwrap": null,
+  "_spec": "soop@=0.1.5",
+  "_where": "/potwallet-chain/node_modules/potchain-api",
+  "author": {
+    "name": "Stephen Pair"
+  },
+  "bugs": {
+    "url": "https://github.com/bitpay/soop/issues"
+  },
+  "dependencies": {
+    "callsite": "1.0.0"
+  },
+  "description": "Soop up your JavaScript.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "fa59420bb0eeff99ffd81c5228bad4b1841c2ed8",
+    "tarball": "https://registry.npmjs.org/soop/-/soop-0.1.5.tgz"
+  },
+  "homepage": "https://github.com/bitpay/soop",
+  "keywords": [
+    "oop",
+    "inheritance",
+    "load",
+    "require"
+  ],
+  "license": "MIT",
+  "main": "soop.js",
+  "maintainers": [
+    {
+      "name": "gasteve",
+      "email": "stephen@pairhome.net"
+    }
+  ],
+  "name": "soop",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitpay/soop.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.5"
+}

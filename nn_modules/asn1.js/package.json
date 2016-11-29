@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "asn1.js@0.4.1",
+        "scope": null,
+        "escapedName": "asn1.js",
+        "name": "asn1.js",
+        "rawSpec": "0.4.1",
+        "spec": "0.4.1",
+        "type": "version"
+      },
+      "/potwallet-chain/node_modules/reddcore"
+    ]
+  ],
+  "_from": "asn1.js@0.4.1",
+  "_id": "asn1.js@0.4.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/asn1.js",
+  "_npmUser": {
+    "name": "indutny",
+    "email": "fedor@indutny.com"
+  },
+  "_npmVersion": "1.4.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "asn1.js@0.4.1",
+    "scope": null,
+    "escapedName": "asn1.js",
+    "name": "asn1.js",
+    "rawSpec": "0.4.1",
+    "spec": "0.4.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/reddcore"
+  ],
+  "_resolved": "https://registry.npmjs.org/asn1.js/-/asn1.js-0.4.1.tgz",
+  "_shasum": "005533905d223c3faf3ab6ea3b2457e262aea72f",
+  "_shrinkwrap": null,
+  "_spec": "asn1.js@0.4.1",
+  "_where": "/potwallet-chain/node_modules/reddcore",
+  "author": {
+    "name": "Fedor Indutny"
+  },
+  "bugs": {
+    "url": "https://github.com/indutny/asn1.js/issues"
+  },
+  "dependencies": {
+    "bn.js": "~0.13.3"
+  },
+  "description": "ASN.1 encoder and decoder",
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "005533905d223c3faf3ab6ea3b2457e262aea72f",
+    "tarball": "https://registry.npmjs.org/asn1.js/-/asn1.js-0.4.1.tgz"
+  },
+  "homepage": "https://github.com/indutny/asn1.js",
+  "keywords": [
+    "asn.1",
+    "der"
+  ],
+  "license": "MIT",
+  "main": "lib/asn1.js",
+  "maintainers": [
+    {
+      "name": "fedor.indutny",
+      "email": "fedor.indutny@gmail.com"
+    },
+    {
+      "name": "indutny",
+      "email": "fedor@indutny.com"
+    }
+  ],
+  "name": "asn1.js",
+  "optionalDependencies": {
+    "bn.js": "~0.13.3"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/asn1.js.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js rfc/2560/test/*-test.js rfc/3280/test/*-test.js"
+  },
+  "version": "0.4.1"
+}

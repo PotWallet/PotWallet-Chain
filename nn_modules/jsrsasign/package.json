@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "jsrsasign@=0.0.3",
+        "scope": null,
+        "escapedName": "jsrsasign",
+        "name": "jsrsasign",
+        "rawSpec": "=0.0.3",
+        "spec": "0.0.3",
+        "type": "version"
+      },
+      "/potwallet-chain/node_modules/reddcore"
+    ]
+  ],
+  "_from": "jsrsasign@0.0.3",
+  "_id": "jsrsasign@0.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jsrsasign",
+  "_npmUser": {
+    "name": "kjur",
+    "email": "kenji.urushima@gmail.com"
+  },
+  "_npmVersion": "1.2.23",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "jsrsasign@=0.0.3",
+    "scope": null,
+    "escapedName": "jsrsasign",
+    "name": "jsrsasign",
+    "rawSpec": "=0.0.3",
+    "spec": "0.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/reddcore"
+  ],
+  "_resolved": "https://registry.npmjs.org/jsrsasign/-/jsrsasign-0.0.3.tgz",
+  "_shasum": "8145894cca889620c4e6defdb5fd8653e7325e61",
+  "_shrinkwrap": null,
+  "_spec": "jsrsasign@=0.0.3",
+  "_where": "/potwallet-chain/node_modules/reddcore",
+  "author": {
+    "name": "Kenji Urushima"
+  },
+  "bugs": {
+    "url": "https://github.com/kjur/jsrsasign/issues"
+  },
+  "dependencies": {},
+  "description": "pure JavaScript cryptographic library(jsrsasign) and JSON Web Token (JWT) and JSON Web Signature (JWS) library (jsjws) bundle",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8145894cca889620c4e6defdb5fd8653e7325e61",
+    "tarball": "https://registry.npmjs.org/jsrsasign/-/jsrsasign-0.0.3.tgz"
+  },
+  "homepage": "https://github.com/kjur/jsrsasign#readme",
+  "keywords": [
+    "RSA",
+    "ECDSA",
+    "DSA",
+    "RSAPSS",
+    "PKCS1",
+    "PKCS5",
+    "PKCS8",
+    "hash function",
+    "HMac",
+    "ASN.1",
+    "X.509",
+    "Signature",
+    "Message Digest",
+    "signing",
+    "certificate",
+    "JSON Web Token",
+    "JSON Web Signature",
+    "JWT",
+    "JWS",
+    "JOSE",
+    "JWA"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/kjur/jsrsasign/master/LICENSE.txt"
+    }
+  ],
+  "main": "lib/jsrsasign.js",
+  "maintainers": [
+    {
+      "name": "kjur",
+      "email": "kenji.urushima@gmail.com"
+    }
+  ],
+  "name": "jsrsasign",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjur/jsrsasign.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.3"
+}

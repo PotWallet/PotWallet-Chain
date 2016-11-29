@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "sjcl@=1.0.1",
+        "scope": null,
+        "escapedName": "sjcl",
+        "name": "sjcl",
+        "rawSpec": "=1.0.1",
+        "spec": "1.0.1",
+        "type": "version"
+      },
+      "/potwallet-chain/node_modules/reddcore"
+    ]
+  ],
+  "_from": "sjcl@1.0.1",
+  "_id": "sjcl@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/sjcl",
+  "_npmUser": {
+    "name": "nilos",
+    "email": "nk@ovt.me"
+  },
+  "_npmVersion": "1.4.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "sjcl@=1.0.1",
+    "scope": null,
+    "escapedName": "sjcl",
+    "name": "sjcl",
+    "rawSpec": "=1.0.1",
+    "spec": "1.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/reddcore"
+  ],
+  "_resolved": "https://registry.npmjs.org/sjcl/-/sjcl-1.0.1.tgz",
+  "_shasum": "b02787aab10ec6b3b77870f20fcd7b68949c9483",
+  "_shrinkwrap": null,
+  "_spec": "sjcl@=1.0.1",
+  "_where": "/potwallet-chain/node_modules/reddcore",
+  "author": {
+    "name": "bitwiseshiftleft"
+  },
+  "bugs": {
+    "url": "https://github.com/bitwiseshiftleft/sjcl/issues"
+  },
+  "dependencies": {},
+  "description": "Stanford Javascript Crypto Library",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b02787aab10ec6b3b77870f20fcd7b68949c9483",
+    "tarball": "https://registry.npmjs.org/sjcl/-/sjcl-1.0.1.tgz"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/bitwiseshiftleft/sjcl",
+  "keywords": [
+    "encryption",
+    "high-level",
+    "crypto"
+  ],
+  "main": "sjcl.js",
+  "maintainers": [
+    {
+      "name": "Nilos",
+      "email": "nk@ovt.me"
+    },
+    {
+      "name": "nilos",
+      "email": "nk@ovt.me"
+    }
+  ],
+  "name": "sjcl",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitwiseshiftleft/sjcl.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "1.0.1"
+}

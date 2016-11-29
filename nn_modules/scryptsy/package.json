@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "scryptsy@0.2.x",
+        "scope": null,
+        "escapedName": "scryptsy",
+        "name": "scryptsy",
+        "rawSpec": "0.2.x",
+        "spec": ">=0.2.0 <0.3.0",
+        "type": "range"
+      },
+      "/potwallet-chain/node_modules/reddcore"
+    ]
+  ],
+  "_from": "scryptsy@>=0.2.0 <0.3.0",
+  "_id": "scryptsy@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/scryptsy",
+  "_npmUser": {
+    "name": "jp",
+    "email": "jprichardson@gmail.com"
+  },
+  "_npmVersion": "1.3.24",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "scryptsy@0.2.x",
+    "scope": null,
+    "escapedName": "scryptsy",
+    "name": "scryptsy",
+    "rawSpec": "0.2.x",
+    "spec": ">=0.2.0 <0.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/reddcore"
+  ],
+  "_resolved": "https://registry.npmjs.org/scryptsy/-/scryptsy-0.2.0.tgz",
+  "_shasum": "7fa5c9e05ee379b8f43ab0d0d695e0054ac2935a",
+  "_shrinkwrap": null,
+  "_spec": "scryptsy@0.2.x",
+  "_where": "/potwallet-chain/node_modules/reddcore",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/cryptocoinjs/scryptsy/issues"
+  },
+  "dependencies": {
+    "pbkdf2-sha256": "~0.1.1"
+  },
+  "description": "scryptsy ========",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "mochify": "~0.4.2",
+    "terst": "0.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7fa5c9e05ee379b8f43ab0d0d695e0054ac2935a",
+    "tarball": "https://registry.npmjs.org/scryptsy/-/scryptsy-0.2.0.tgz"
+  },
+  "homepage": "https://github.com/cryptocoinjs/scryptsy",
+  "keywords": [
+    "crytpo",
+    "cryptography",
+    "scrypt",
+    "kdf",
+    "litecoin",
+    "dogecoin",
+    "bitcoin",
+    "bip38"
+  ],
+  "license": "MIT",
+  "main": "lib/scrypt.js",
+  "maintainers": [
+    {
+      "name": "jp",
+      "email": "jprichardson@gmail.com"
+    }
+  ],
+  "name": "scryptsy",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "url": "git+ssh://git@github.com/cryptocoinjs/scryptsy.git",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "make node-test"
+  },
+  "version": "0.2.0"
+}

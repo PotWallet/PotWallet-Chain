@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "hash.js@^0.3.2",
+        "scope": null,
+        "escapedName": "hash.js",
+        "name": "hash.js",
+        "rawSpec": "^0.3.2",
+        "spec": ">=0.3.2 <0.4.0",
+        "type": "range"
+      },
+      "/potwallet-chain/node_modules/bitauth"
+    ]
+  ],
+  "_from": "hash.js@>=0.3.2 <0.4.0",
+  "_id": "hash.js@0.3.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/hash.js",
+  "_npmUser": {
+    "name": "indutny",
+    "email": "fedor@indutny.com"
+  },
+  "_npmVersion": "1.4.21",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "hash.js@^0.3.2",
+    "scope": null,
+    "escapedName": "hash.js",
+    "name": "hash.js",
+    "rawSpec": "^0.3.2",
+    "spec": ">=0.3.2 <0.4.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/bitauth"
+  ],
+  "_resolved": "https://registry.npmjs.org/hash.js/-/hash.js-0.3.2.tgz",
+  "_shasum": "6a945434ba8dbbadebb4e5065f9287b02529b93c",
+  "_shrinkwrap": null,
+  "_spec": "hash.js@^0.3.2",
+  "_where": "/potwallet-chain/node_modules/bitauth",
+  "author": {
+    "name": "Fedor Indutny",
+    "email": "fedor@indutny.com"
+  },
+  "bugs": {
+    "url": "https://github.com/indutny/hash.js/issues"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1"
+  },
+  "description": "Various hash functions that could be run by both browser and node",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6a945434ba8dbbadebb4e5065f9287b02529b93c",
+    "tarball": "https://registry.npmjs.org/hash.js/-/hash.js-0.3.2.tgz"
+  },
+  "gitHead": "fcca8374d368b728da4ade9d9d2719180bae9a2a",
+  "homepage": "https://github.com/indutny/hash.js",
+  "keywords": [
+    "hash",
+    "sha256",
+    "sha224",
+    "hmac"
+  ],
+  "license": "MIT",
+  "main": "lib/hash.js",
+  "maintainers": [
+    {
+      "name": "indutny",
+      "email": "fedor@indutny.com"
+    }
+  ],
+  "name": "hash.js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/hash.js.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js"
+  },
+  "version": "0.3.2"
+}

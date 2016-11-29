@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "grunt-macreload@*",
+        "scope": null,
+        "escapedName": "grunt-macreload",
+        "name": "grunt-macreload",
+        "rawSpec": "*",
+        "spec": "*",
+        "type": "range"
+      },
+      "/potwallet-chain"
+    ]
+  ],
+  "_from": "grunt-macreload@*",
+  "_id": "grunt-macreload@0.1.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/grunt-macreload",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "webgefrickel",
+    "email": "webgefrickel@gmail.com"
+  },
+  "_npmVersion": "2.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "grunt-macreload@*",
+    "scope": null,
+    "escapedName": "grunt-macreload",
+    "name": "grunt-macreload",
+    "rawSpec": "*",
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/grunt-macreload/-/grunt-macreload-0.1.4.tgz",
+  "_shasum": "8078b872b366d2d6291aaf51472ec9f6b7be2d3c",
+  "_shrinkwrap": null,
+  "_spec": "grunt-macreload@*",
+  "_where": "/potwallet-chain",
+  "author": {
+    "name": "Steffen Becker",
+    "email": "webgefrickel@gmail.com",
+    "url": "http://webgefrickel.de"
+  },
+  "bin": {
+    "grunt-macreload": "bin/grunt-macreload"
+  },
+  "bugs": {
+    "url": "https://github.com/webgefrickel/grunt-macreload/issues"
+  },
+  "dependencies": {
+    "grunt": ">=0.3.7"
+  },
+  "deprecated": "Use something like browsersyc or livereload instead",
+  "description": "A small grunt-task that reloads your browser (OSX only) [DEPRECATED]",
+  "devDependencies": {
+    "grunt": ">=0.3.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "8078b872b366d2d6291aaf51472ec9f6b7be2d3c",
+    "tarball": "https://registry.npmjs.org/grunt-macreload/-/grunt-macreload-0.1.4.tgz"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "gitHead": "0cd03b57452cb874e02f03e6df370f6737673a78",
+  "homepage": "https://github.com/webgefrickel/grunt-macreload",
+  "keywords": [
+    "grunt.js",
+    "grunt",
+    "gruntplugin",
+    "reload",
+    "browser-refresh"
+  ],
+  "main": "grunt.js",
+  "maintainers": [
+    {
+      "name": "webgefrickel",
+      "email": "webgefrickel@gmail.com"
+    }
+  ],
+  "name": "grunt-macreload",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webgefrickel/grunt-macreload.git"
+  },
+  "scripts": {},
+  "version": "0.1.4"
+}

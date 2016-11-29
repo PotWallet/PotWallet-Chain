@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bufferput@git://github.com/bitpay/node-bufferput.git",
+        "scope": null,
+        "escapedName": "bufferput",
+        "name": "bufferput",
+        "rawSpec": "git://github.com/bitpay/node-bufferput.git",
+        "spec": "git://github.com/bitpay/node-bufferput.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:bitpay/node-bufferput.git",
+          "sshUrl": "git+ssh://git@github.com/bitpay/node-bufferput.git",
+          "httpsUrl": "git+https://github.com/bitpay/node-bufferput.git",
+          "gitUrl": "git://github.com/bitpay/node-bufferput.git",
+          "shortcut": "github:bitpay/node-bufferput",
+          "directUrl": "https://raw.githubusercontent.com/bitpay/node-bufferput/master/package.json"
+        }
+      },
+      "/potwallet-chain/node_modules/potchain-api"
+    ]
+  ],
+  "_from": "git://github.com/bitpay/node-bufferput.git",
+  "_id": "bufferput@0.1.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bufferput",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bufferput@git://github.com/bitpay/node-bufferput.git",
+    "scope": null,
+    "escapedName": "bufferput",
+    "name": "bufferput",
+    "rawSpec": "git://github.com/bitpay/node-bufferput.git",
+    "spec": "git://github.com/bitpay/node-bufferput.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:bitpay/node-bufferput.git",
+      "sshUrl": "git+ssh://git@github.com/bitpay/node-bufferput.git",
+      "httpsUrl": "git+https://github.com/bitpay/node-bufferput.git",
+      "gitUrl": "git://github.com/bitpay/node-bufferput.git",
+      "shortcut": "github:bitpay/node-bufferput",
+      "directUrl": "https://raw.githubusercontent.com/bitpay/node-bufferput/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/potchain-api",
+    "/reddcore"
+  ],
+  "_resolved": "git://github.com/bitpay/node-bufferput.git#7cc60ce52b53233e1ac2434ec12ef8d6deb68d97",
+  "_shasum": "434e41b543882ace102a6246bcaeea838e0f1372",
+  "_shrinkwrap": null,
+  "_spec": "bufferput@git://github.com/bitpay/node-bufferput.git",
+  "_where": "/potwallet-chain/node_modules/potchain-api",
+  "bugs": {
+    "url": "https://github.com/bitpay/node-bufferput/issues"
+  },
+  "dependencies": {},
+  "description": "Pack multibyte binary values into buffers",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.3.0"
+  },
+  "gitHead": "7cc60ce52b53233e1ac2434ec12ef8d6deb68d97",
+  "homepage": "https://github.com/bitpay/node-bufferput#readme",
+  "keywords": [
+    "put",
+    "pack",
+    "binary",
+    "buffer"
+  ],
+  "license": {
+    "type": "MIT/X11"
+  },
+  "main": "./index.js",
+  "name": "bufferput",
+  "optionalDependencies": {},
+  "readme": "BufferPut\n===\n\nPack multibyte binary values into buffers with specific endiannesses.  Based\non the original Put by https://github.com/substack/node-put ...this version\nis intended to be a little more conventional in structure and faster\nto instantiate and easier for a VM to optimize.  Instantiation of this version\nis more that 500x faster than the original as measured on nodejs 0.10.12.\n\nInstallation\n============\n\nTo install with [npm](http://github.com/isaacs/npm):\n \n    npm install bufferput\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso):\n\n    expresso\n\nExamples\n========\n\nbuf.js\n------\n\nBuild a buffer\n\n    #!/usr/bin/env node\n\n    var BufferPut = require('bufferput');\n    var buf = (new BufferPut())\n        .word16be(1337)\n        .word8(1)\n        .pad(5)\n        .put(new Buffer('pow', 'ascii'))\n        .word32le(9000)\n        .buffer()\n    ;\n    console.log(buf);\n\nOutput:\n    <Buffer 05 39 01 00 00 00 00 00 70 6f 77 28 23 00 00>\n\nstream.js\n---------\n\nSend a buffer to a writeable stream\n\n    #!/usr/bin/env node\n\n    var BufferPut = require('bufferput');\n    (new BufferPut())\n        .word16be(24930)\n        .word32le(1717920867)\n        .word8(103)\n        .write(process.stdout)\n    ;\n\nOutput:\n    abcdefg\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bitpay/node-bufferput.git"
+  },
+  "scripts": {
+    "test": "expresso"
+  },
+  "version": "0.1.3"
+}
