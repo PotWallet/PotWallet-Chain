@@ -33,3 +33,9 @@ information.  This information is found in the coins source.
 
 The chain syncs when running the start command against the executable script and makes it to 27% then errors complaining that the 'magic prefix'
 no longer matches the chain.  This is around block 480,000.  The prefix set in networks.js works up until then, then simply stops.
+
+## Threads
+
+    $ https://github.com/reddcoin-project/reddcore/issues/3
+
+    $ http://stackoverflow.com/questions/40590989/critical-error-magic-number-mismatch-insight-bitcore
